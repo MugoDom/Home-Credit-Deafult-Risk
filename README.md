@@ -7,7 +7,7 @@ This project simulates a real-world end-to-end machine learning workflow for pre
 - Feature engineering and transformation
 - ML modeling and evaluation
 - Model explainability (SHAP)
-- (Optional) Deployment using FastAPI
+- Deployment using FastAPI
 
 ## Structure
 - `data/`: Raw and processed datasets
