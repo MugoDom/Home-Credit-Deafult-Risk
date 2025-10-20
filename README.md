@@ -12,6 +12,6 @@ This project simulates a real-world end-to-end machine learning workflow for pre
 ## Structure
 - `data/`: Raw and processed datasets
 - `src/`: Modular Python scripts
-- `notebooks/`: Jupyter exploration
+- `notebooks/`: Jupyter notebooks for data exploration
 - `models/`: Trained models
 - `api/`: Inference app
