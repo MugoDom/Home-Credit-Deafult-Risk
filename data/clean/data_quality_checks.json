@@ -1,0 +1,32 @@
+{
+  "unique_ids":true,
+  "duplicate_rows":0,
+  "constant_columns":[
+
+  ],
+  "high_missing_over_60pct":[
+    "COMMONAREA_MEDI",
+    "COMMONAREA_AVG",
+    "COMMONAREA_MODE",
+    "NONLIVINGAPARTMENTS_MODE",
+    "NONLIVINGAPARTMENTS_AVG",
+    "NONLIVINGAPARTMENTS_MEDI",
+    "FONDKAPREMONT_MODE",
+    "LIVINGAPARTMENTS_MODE",
+    "LIVINGAPARTMENTS_AVG",
+    "LIVINGAPARTMENTS_MEDI",
+    "FLOORSMIN_AVG",
+    "FLOORSMIN_MODE",
+    "FLOORSMIN_MEDI",
+    "YEARS_BUILD_MEDI",
+    "YEARS_BUILD_MODE",
+    "YEARS_BUILD_AVG",
+    "OWN_CAR_AGE"
+  ],
+  "DAYS_EMPLOYED_365243_count":55374,
+  "CODE_GENDER_counts":{
+    "F":202448,
+    "M":105059,
+    "XNA":4
+  }
+}

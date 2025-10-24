@@ -5,5 +5,7 @@ __pycache__/
 data/processed/*
 models/*
 venv/
-data/
+data/*
+!data/clean/
+!data/clean/**
 anaconda_projects/db/
