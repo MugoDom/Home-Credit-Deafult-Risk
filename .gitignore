@@ -6,3 +6,4 @@ data/processed/*
 models/*
 venv/
 data/
+anaconda_projects/db/
