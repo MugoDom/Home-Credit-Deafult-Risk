@@ -6,8 +6,8 @@ data/processed/*
 models/*
 venv/
 data/*
-!data/clean/
-!data/clean/**
+data/clean/
+data/clean/**
 anaconda_projects/db/
 anaconda_projects/
 .virtual_documents/
@@ -18,3 +18,4 @@ anaconda_projects/
 # Ignore local notebooks if desired
 notebooks/
 *.ipynb
+data/
