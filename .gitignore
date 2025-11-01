@@ -9,3 +9,12 @@ data/*
 !data/clean/
 !data/clean/**
 anaconda_projects/db/
+anaconda_projects/
+.virtual_documents/
+# macOS system file
+.DS_Store
+# Jupyter virtual docs
+.virtual_documents/
+# Ignore local notebooks if desired
+notebooks/
+*.ipynb
