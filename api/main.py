@@ -16,8 +16,9 @@ def health_check():
 @app.post("/predict")
 def predict(payload: ApplicationInput):
     """
-    Accept raw application data (one applicant),
-    run preprocessing + LightGBM model, return probability + decision.
+    Accepts ALL raw columns from train_merged.csv,
+    preprocesses them using preprocessor.pkl,
+    sanitizes columns,
+    and runs LightGBM prediction.
     """
-    result = score_application(payload.dict())
-    return result
+    return score_application(payload.dict())
