@@ -1,5 +1,6 @@
 # api/main.py
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from api.models import ApplicationInput
 from api.inference import score_application
 
@@ -8,7 +9,17 @@ app = FastAPI(
     description="Predict default probability for loan applicants",
     version="1.0.0"
 )
-
+# 🚩 Allow your React dev server to call the API
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",  # Vite default
+        "http://localhost:3000",  # CRA default
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 @app.get("/health")
 def health_check():
     return {"status": "ok"}

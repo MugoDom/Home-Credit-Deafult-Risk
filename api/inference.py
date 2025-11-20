@@ -3,7 +3,7 @@ from pathlib import Path
 import lightgbm as lgb
 from typing import Dict
 
-from src.fe_pipeline import prepare_features
+# from src.fe_pipeline import prepare_features
 from src.fe_engineering_light import prepare_features_for_model
 
 
@@ -12,7 +12,7 @@ MODEL_PATH = PROJECT_ROOT / "model" / "lightgbm_model.txt"
 
 model = lgb.Booster(model_file=str(MODEL_PATH))
 
-DEFAULT_THRESHOLD = 0.25  # adjust based on calibration
+DEFAULT_THRESHOLD = 0.25  # Theoretical
 
 
 def score_application(raw_input):
