@@ -20,3 +20,6 @@ notebooks/
 *.ipynb
 data/
 home-credit-ui/
+# Keep the small agg files needed for the API
+!data/clean/bureau_agg.csv
+!data/clean/behavior_agg.csv
