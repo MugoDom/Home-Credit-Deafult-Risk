@@ -9,12 +9,13 @@ app = FastAPI(
     description="Predict default probability for loan applicants",
     version="1.0.0"
 )
-# 🚩 Allow your React dev server to call the API
+# 🚩 Allow React dev server to call the API
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",  # Vite default
         "http://localhost:3000",  # CRA default
+        "https://home-credit-ui.onrender.com", # Render url
     ],
     allow_credentials=True,
     allow_methods=["*"],
